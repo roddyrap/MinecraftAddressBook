@@ -1,0 +1,15 @@
+name: AddressBook
+author: Roddy Rappaport
+version: 1.1
+main: dev.roddyra.addressbook.AddressBook
+api-version: 1.18
+description: "This plugin provides an address book to the server. Players can save addresses of important locations for later use.
+Includes a server wide address book that can only be modified by ops but can be seen by everyone."
+commands:
+  address:
+    aliases: [ad]
+    description: Accesses the player specific address book.
+
+  gaddress:
+    aliases: [gad]
+    description: Accesses the server-wide (global) address book.
